@@ -13,10 +13,13 @@ namespace ThreadingWorkshop
         {
             Download();
 
+            Console.ReadLine();
+
         }
 
         static void Download()
         { 
+            // ensure git commit is done!
             Task.Run( () => {
 	        Thread.Sleep(3000);
             Console.WriteLine("Complete");
