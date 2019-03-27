@@ -16,9 +16,11 @@ namespace ThreadingWorkshop
         }
 
         static void Download()
-        {
-            Thread.Sleep(3000);
+        { 
+            Task.Run( () => {
+	        Thread.Sleep(3000);
             Console.WriteLine("Complete");
+});
         }
     }
 }
