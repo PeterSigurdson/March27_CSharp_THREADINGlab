@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
+using System.Net.Http;
 
 namespace ThreadingWorkshop
 {
@@ -18,8 +19,9 @@ namespace ThreadingWorkshop
 
         static async void Download()
         {
-            await Network.Download();
-            Console.WriteLine("Download Complete");
+            HttpClient client = new HttpClient();
+            string data = await client.GetStringAsync("http://rousacademy.com");
+            Console.WriteLine("Download complete " + data);
         }
     }
 
@@ -30,3 +32,4 @@ namespace ThreadingWorkshop
             return Task.Run(() => Thread.Sleep(3000));
         }
     }
+}
