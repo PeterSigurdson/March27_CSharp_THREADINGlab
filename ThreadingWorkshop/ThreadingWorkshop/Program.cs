@@ -11,19 +11,22 @@ namespace ThreadingWorkshop
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Downloading File...");
             Download();
-
             Console.ReadLine();
-
         }
 
-        static void Download()
-        { 
-            // ensure git commit is done!
-            Task.Run( () => {
-	        Thread.Sleep(3000);
-            Console.WriteLine("Complete");
-});
+        static async void Download()
+        {
+            await Network.Download();
+            Console.WriteLine("Download Complete");
         }
     }
-}
+
+    class Network
+    {
+        static public Task Download()
+        {
+            return Task.Run(() => Thread.Sleep(3000));
+        }
+    }
