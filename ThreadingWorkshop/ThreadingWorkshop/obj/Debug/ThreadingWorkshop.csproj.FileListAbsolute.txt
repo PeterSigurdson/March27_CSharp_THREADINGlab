@@ -1,0 +1,7 @@
+U:\Users\Peter.Sigurdson\github\March27\ThreadingWorkshop\ThreadingWorkshop\bin\Debug\ThreadingWorkshop.exe.config
+U:\Users\Peter.Sigurdson\github\March27\ThreadingWorkshop\ThreadingWorkshop\bin\Debug\ThreadingWorkshop.exe
+U:\Users\Peter.Sigurdson\github\March27\ThreadingWorkshop\ThreadingWorkshop\bin\Debug\ThreadingWorkshop.pdb
+U:\Users\Peter.Sigurdson\github\March27\ThreadingWorkshop\ThreadingWorkshop\obj\Debug\ThreadingWorkshop.csprojAssemblyReference.cache
+U:\Users\Peter.Sigurdson\github\March27\ThreadingWorkshop\ThreadingWorkshop\obj\Debug\ThreadingWorkshop.csproj.CoreCompileInputs.cache
+U:\Users\Peter.Sigurdson\github\March27\ThreadingWorkshop\ThreadingWorkshop\obj\Debug\ThreadingWorkshop.exe
+U:\Users\Peter.Sigurdson\github\March27\ThreadingWorkshop\ThreadingWorkshop\obj\Debug\ThreadingWorkshop.pdb
